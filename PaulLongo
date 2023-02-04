@@ -1,0 +1,106 @@
+{
+  "Version": "9.2",
+  "ReleaseNotes": "⚜️ATENÇÂO⚜️\n\nModificados Protocolos da operadora Claro. Caso continue não conectando contate o suporte.;)\n\nAtt: SCOTT Desenvolvedor MT4G🔰",
+  "UrlUpdate": "https://raw.githubusercontent.com/ScottBrabo/Mt4G/PaulLongo",
+  "Sms": "https://bitbin.it/fLAaI3s5/raw/",
+  "EmailFeedback": "crosh9876@gmail.com",
+  "UrlContato": "https://wa.me/5519998987818",
+  "UrlTermos": "https://bitbin.it/WUwitdNa/raw/",
+  "CheckUser": "true",
+  "UdpPort": "7300",
+  "Servers": [
+    {
+      "Name": "Servidor [01]",
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "scottssh.ga",
+      "CheckUser": "http://scottssh.ga:5050/checkUser",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    }
+  ],
+  "Networks": [         
+   {
+      "Name": "╰┈[☞>📲𝗩𝗜𝗩𝗢 𝟱𝗚 01 📡 🟣",
+              "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [rotate=d1y3co9qiurmsi.cloudfront.net][crlf] Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "108.139.166.70",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+     "Name": "╰┈[☞>📱𝗩𝗜𝗩𝗢 𝟱𝗚 𝟬2 📡 🟣",
+   "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [rotate=scottssh.ga][crlf] Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.16.53.111",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+        },
+    {
+      "Name": "╰┈[☞>📱𝗖𝗟𝗔𝗥𝗢 𝟱𝗚 𝟬1 📡 🔴",    
+    "FLAG": "claro",
+      "Payload": "GET wss://[rotate=d1y3co9qiurmsi.cloudfront.net] HTTP/1.1[crlf]Host: origin.api.amxrest.net[crlf]Upgrade: Websocket[crlf]Connection: Upgrade[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "52.85.34.102",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "╰┈[☞>📱𝗖𝗟𝗔𝗥𝗢 𝟱𝗚 𝟬2 📡 🔴",     
+   "FLAG": "claro",
+      "Payload": "GET wss://[rotate=d1y3co9qiurmsi.cloudfront.net] HTTP/1.1[crlf]Host: docs.amxrest.net[crlf]Upgrade: Websocket[crlf]Connection: Upgrade[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "52.85.34.50",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "╰┈[☞>📱𝗧𝗜𝗠 𝟱𝗚 𝟬1 📡 🔵",
+  "FLAG": "tim",
+ "Payload": "GET / HTTP/1.1\nHost: api.sandbox.c6bank.com.br\nExpect: 100-continue\n\n[split]\n\nACL /?/ HTTP/1.1\nHost: [app_host]\nExpect: 100-continue\nUpgrade: websocket\nUser-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)\n\n",
+  "SNI": "",
+  "TlsIP": "",
+  "ProxyIP": "104.19.239.25",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+},
+{
+      "Name": "╰┈[☞>📱𝗧𝗜𝗠 𝟱𝗚 𝟬2 📡 🔵",
+  "FLAG": "tim",
+ "Payload": "GET / HTTP/1.1\nHost: api.sandbox.c6bank.com.br\nExpect: 100-continue\n\n[split]\n\nACL /?/ HTTP/1.1\nHost: [app_host]\nExpect: 100-continue\nUpgrade: websocket\nUser-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)\n\n",
+  "SNI": "",
+  "TlsIP": "",
+  "ProxyIP": "104.16.53.111",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+},
+    {
+      "Name": "╰┈[☞>📱𝗢𝗜 𝟱𝗚 𝟬1 📡 🟡",
+      "FLAG": "oi",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [rotate=d1y3co9qiurmsi.cloudfront.net][crlf] Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "18.67.65.41",
+      "ProxyIP": "18.67.65.41",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+  {
+   "Name": "╰┈[☞>📱𝗢𝗜 𝟱𝗚 𝟬2 📡 🟡",
+        "FLAG": "oi",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.16.56.6",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+  }
+ ]
+}
